@@ -1,10 +1,10 @@
 import { HeroSection } from "@/components/sections/hero";
 import { GridPattern } from "@/components/ui/grid-pattern";
-import { GroupBuyTracker } from "@/components/sections/group-buy-tracker";
-import { ProductStory } from "@/components/sections/product-story";
-import { SavingsVisualizer } from "@/components/sections/savings-visualizer";
+// import { GroupBuyTracker } from "@/components/sections/group-buy-tracker";
+// import { ProductStory } from "@/components/sections/product-story";
+// import { SavingsVisualizer } from "@/components/sections/savings-visualizer";
 import { HowItWorks } from "@/components/sections/how-it-works";
-import { Reviews } from "@/components/sections/reviews";
+// import { Reviews } from "@/components/sections/reviews";
 import { Footer } from "@/components/sections/footer";
 import Link from "next/link"
 
