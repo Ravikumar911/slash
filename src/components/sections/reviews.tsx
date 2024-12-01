@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Avatar } from "@/components/ui/avatar";
 import { Star } from "lucide-react";
+import Image from "next/image";
 
 const reviews = [
   {
@@ -44,7 +45,7 @@ export function Reviews() {
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
                   <Avatar className="w-12 h-12">
-                    <img src={review.avatar} alt={review.name} />
+                    <Image src={review.avatar} alt={review.name} />
                   </Avatar>
                   <div>
                     <div className="font-medium">{review.name}</div>
